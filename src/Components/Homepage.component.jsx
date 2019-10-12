@@ -1,44 +1,44 @@
 import React from 'react';
 
+import '../Styles/homepage.styles.scss';
+
 const Homepage = ()=>(
 	<div className = "homepage">
-		<div classsName = "directory">
-			<div className = "directory-item">
+		<div classsName = "directory-menu">
+			<div className = "menu-item">
 				<div className = "content">
-					<h1>Hats</h1>
-					<span>Shop Now</span>
+					<h1 className = "title">Hats</h1>
+					<span className = "subtitle">Shop Now</span>
 				</div>
 			</div>
-		</div>
-		<div classsName = "directory">
-			<div className = "directory-item">
+		
+		
+			<div className = "menu-item">
 				<div className = "content">
-					<h1>Sneakers</h1>
-					<span>Shop Now</span>
+					<h1 className = "title">Sneakers</h1>
+					<span className = "subtitle">Shop Now</span>
 				</div>
 			</div>
-		</div>
-		<div classsName = "directory">
-			<div className = "directory-item">
+		
+		
+			<div className = "menu-item">
 				<div className = "content">
-					<h1>Jackets</h1>
-					<span>Shop Now</span>
+					<h1 className = "title">Jackets</h1>
+					<span className = "subtitle">Shop Now</span>
 				</div>
 			</div>
-		</div>
-		<div classsName = "directory">
-			<div className = "directory-item">
+		
+			<div className = "menu-item">
 				<div className = "content">
-					<h1>Mens</h1>
-					<span>Shop Now</span>
+					<h1 className = "title">Mens</h1>
+					<span className = "subtitle">Shop Now</span>
 				</div>
 			</div>
-		</div>
-		<div classsName = "directory">
-			<div className = "directory-item">
+		
+			<div className = "menu-item">
 				<div className = "content">
-					<h1>Womens</h1>
-					<span>Shop Now</span>
+					<h1 className = "title">Womens</h1>
+					<span className = "subtitle">Shop Now</span>
 				</div>
 			</div>
 		</div>
