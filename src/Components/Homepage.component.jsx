@@ -1,48 +1,15 @@
 import React from 'react';
 
 import '../Styles/homepage.styles.scss';
+import DirectoryMenu from './DirectoryMenu.component';
 
-const Homepage = ()=>(
-	<div className = "homepage">
-		<div classsName = "directory-menu">
-			<div className = "menu-item">
-				<div className = "content">
-					<h1 className = "title">Hats</h1>
-					<span className = "subtitle">Shop Now</span>
-				</div>
-			</div>
-		
-		
-			<div className = "menu-item">
-				<div className = "content">
-					<h1 className = "title">Sneakers</h1>
-					<span className = "subtitle">Shop Now</span>
-				</div>
-			</div>
-		
-		
-			<div className = "menu-item">
-				<div className = "content">
-					<h1 className = "title">Jackets</h1>
-					<span className = "subtitle">Shop Now</span>
-				</div>
-			</div>
-		
-			<div className = "menu-item">
-				<div className = "content">
-					<h1 className = "title">Mens</h1>
-					<span className = "subtitle">Shop Now</span>
-				</div>
-			</div>
-		
-			<div className = "menu-item">
-				<div className = "content">
-					<h1 className = "title">Womens</h1>
-					<span className = "subtitle">Shop Now</span>
-				</div>
-			</div>
+const Homepage = ()=>{
+	return(
+		<div>
+			<header>Header will come here</header>
+			<DirectoryMenu />
+			<footer>All rights reserved</footer>
 		</div>
-	</div>
-);
-
+	)
+}
 export default Homepage;
