@@ -5,10 +5,8 @@ import DirectoryMenu from './DirectoryMenu.component';
 
 const Homepage = ()=>{
 	return(
-		<div>
-			<header>Header will come here</header>
+		<div>	
 			<DirectoryMenu />
-			<footer>All rights reserved</footer>
 		</div>
 	)
 }
