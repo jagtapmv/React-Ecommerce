@@ -1,0 +1,15 @@
+.mainLayout{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+
+    .title{
+        font-size: 18px;
+    }
+
+    .categoryLayout{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

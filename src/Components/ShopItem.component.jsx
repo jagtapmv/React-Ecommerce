@@ -4,12 +4,12 @@ import '../Styles/ShopItem.styles.scss';
 import ItemContent from '../Components/ItemContent.component';
 
 const ShopItem = ({id,title,items})=>(
-    <div>
-        <h1>{title}</h1>
-        <div>
+    <div className="mainLayout"> 
+        <h2 className="title">{title.toUpperCase()}</h2>
+        <div className="categoryLayout"> 
             {
-                items.map(({id, ...otherItems})=>(
-                    <div key = {id}><ItemContent {...otherItems} /></div>
+                items.filter((item,idx)=>idx<4).map(({id, ...otherItems})=>(
+                    <ItemContent key = {id} {...otherItems} />
                 )
                 )
             }
