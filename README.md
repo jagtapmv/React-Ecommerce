@@ -1,4 +1,3 @@
-
 ---
 permalink: /public/index.html
 ---
