@@ -1,1 +1,4 @@
 
+---
+permalink: /public/index.html
+---
