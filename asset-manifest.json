@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Ecommerce/static/css/main.7fbe05c7.chunk.css",
+    "main.js": "/React-Ecommerce/static/js/main.dae0c9fe.chunk.js",
+    "main.js.map": "/React-Ecommerce/static/js/main.dae0c9fe.chunk.js.map",
+    "runtime-main.js": "/React-Ecommerce/static/js/runtime-main.5f0e618f.js",
+    "runtime-main.js.map": "/React-Ecommerce/static/js/runtime-main.5f0e618f.js.map",
+    "static/js/2.9ffa5a63.chunk.js": "/React-Ecommerce/static/js/2.9ffa5a63.chunk.js",
+    "static/js/2.9ffa5a63.chunk.js.map": "/React-Ecommerce/static/js/2.9ffa5a63.chunk.js.map",
+    "index.html": "/React-Ecommerce/index.html",
+    "precache-manifest.1a1ec495332ffb423cfebaea2cd39dc1.js": "/React-Ecommerce/precache-manifest.1a1ec495332ffb423cfebaea2cd39dc1.js",
+    "service-worker.js": "/React-Ecommerce/service-worker.js",
+    "static/css/main.7fbe05c7.chunk.css.map": "/React-Ecommerce/static/css/main.7fbe05c7.chunk.css.map",
+    "static/media/crown.ed28accb.svg": "/React-Ecommerce/static/media/crown.ed28accb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f0e618f.js",
+    "static/js/2.9ffa5a63.chunk.js",
+    "static/css/main.7fbe05c7.chunk.css",
+    "static/js/main.dae0c9fe.chunk.js"
+  ]
+}
